@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg-1{
+    background-color: rgb(39, 39, 212);
+    height:100vh;
+    padding: 3rem !important;
+}
+.container{
+    background-color: rgb(13, 152, 0)!important;
+    height:85vh;
+    width: 60vw !important;
+    padding: 4rem 8rem !important;
+ 
+}
+.bg-white{
+    height:90%;
+    position:relative;
+}
+img{
+    width:6%;
+    padding:0;
+    margin-top:2rem;
+   
+}
+.bird-a{
+   
+    width:42%;
+    margin:.5rem;
+    
+    
+}
+.bird{
+    width: 10%;
+   
+    position: absolute;
+    right:0;
+    margin-bottom:.8rem!important;
+    background-color:darkgray;
+    text-align: center;
+    top:0!important;
+    
+}
+.content{
+  
+    font-family:cursive;
+   
+    width:80%;
+    margin:auto;
+    margin-top: 3rem;
+
+}
+.writter{
+    text-align: right;
+    padding:4rem 1.5rem;
+    font-family:cursive;
+    position:absolute;
+    bottom:0rem!important;
+    right:0;
+    
+}
+@media screen and (max-width:900px){
+    .container{
+        width:100%!important;
+        padding:3.5rem 4rem!important;
+    }
+    :root{
+       
+    }
+}
